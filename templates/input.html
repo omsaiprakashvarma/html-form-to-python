@@ -1,0 +1,23 @@
+<html>
+   <head>
+      <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename='input.css') }}" />
+      
+   </head>
+   <body>
+      
+      <div class="input_box">
+         <h1 style="text-align: center;margin-top: 300px;font-family: monospace;">Enter Data</h1>
+         <form action = "http://localhost:5000/result" method = "POST">
+            <div>
+               <label>Enter number of floors:</label><input type = "number" name = "n1" class="box"/>
+            </div>
+            <br>
+            <div>
+               <label>Enter number of rooms:</label><input type = "number" name = "n2" class="box"/>
+            </div>
+            <br><br>
+            <input id="send" type = "submit" value = "Submit"/>
+         </form>
+      </div>
+   </body>
+</html>

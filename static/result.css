@@ -1,0 +1,33 @@
+body{
+    background-color: #373740;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+
+table{
+    background-color: #2ECC71;
+    width: fit-content;
+	height: fit-content;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+      
+    padding: 50px;
+	margin: auto;
+    border-radius: 10px;
+    border: 1px white solid;
+
+    transition: 600ms;
+
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+
+h1{
+    text-align: center;
+}

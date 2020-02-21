@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+   <head>
+      <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename='result.css') }}" />
+   </head>
+   <body>
+      <h1 style="text-align: center;margin-top: 300px;">Data Sent to Python Script</h1>
+      <table>
+         <tbody>
+            {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} :</th>
+               <td> {{ value }} </td>
+            </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+   </body>
+</html>
